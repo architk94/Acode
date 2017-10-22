@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+*{
+	margin:0;
+	padding: 0;
+	border: 0;
+
+}
+
+.scroll{
+	width: 100%;
+	height: 1600vh;
+	position: relative;
+	
+	overflow-x:  hidden;
+	
+
+}
+
+.max{
+	height: 1150vh;
+	width: 100vw;
+overflow: hidden;
+    
+}
+
+
+
+.background{
+	top: 80vh;
+	width: 100vw;
+	height: 1250vh;
+	background-image: url(assets/finalbg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+}
+
+.person{
+	width: 47.5vw;
+	height: 17.5vh;
+	background-image: url(assets/person.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+	position: absolute;
+	margin-left: 48%;
+	margin-top: 12%;
+	position: fixed;
+	display: hide;
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+.tracks{
+	width: 100vw;
+	height: 62vh;
+	background-image: url(assets/tracks.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+	position: absolute;
+	/*background:pink;*/
+		margin-top: -155vh;
+	
+
+}
+
+
+.highline{
+	width: 100vw;
+	height: 62vh;
+	background-image: url(assets/highline.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+	position: absolute;
+
+	margin-top: 720vh;
+	z-index: 1000;
+	
+
+}
+
+
+
+.train{
+	width: 200vw;
+	height: 62vh;
+	background-image: url(assets/train1.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 3;
+	position: absolute;
+
+	margin-top: -160vh;
+	margin-left: 140vh;
+	left: 240vh;
+	overflow: hidden;}
+
+
+
+
+.train-contain{
+	width: 100%;
+	height: 62vh;
+	
+	
+	
+}
+
+
+
+	
+
+
+
+.main-back{
+	width: 100vw;
+	height: 80vh;
+	background-image: url(assets/1.png);
+	
+	margin-top: -1150vh;
+	position: relative;
+}	
+
+
+
+.one{
+	
+	height: 50%;
+	width: 48vw;
+	
+	float: left;
+	margin: 5px;
+
+}
+
+#uno{
+	background-color: rgba(214,0,0,0.5);
+}
+
+
+#dos{
+	background-color: rgba(214,111,0,0.5);
+}	
+
+#tres{
+	background-color: rgba(214,111,0,0.5);
+}
+
+#quatro{
+	background-color: rgba(214,111,0,0.5);
+}
+
+
+
+.circle{
+	height: 150px;
+	width: 150px;
+	background-color: #1696DF;
+	border-radius:  150%;
+	margin-top: 420px;
+	margin-left: 300px;
+	position: absolute;
+	z-index: 1;
+
+}
+
+.follow{
+	width: 100%;
+	height: 40%;
+}
+
+
+
+
+
+.eye_pan{
+	display: table;
+	padding: 30px 50px;
+		background-color: pink;
+	
+}
+.eye{
+	height: 70px;
+	width: 70px;
+	background-color: black;
+	border-radius: 150px;
+	position: absolute;
+	margin-left: 280px;
+	margin-top: 235px;
+	transition: .5s height ease-in-out;
+	z-index: 2;
+}
+.eye_l{
+	
+}
+
+.pan_area{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(assets/eyeb.png);
+		
+	position: relative;
+}
+
+.people{
+	position: relative;
+	margin-top: 490vh;
+	transform: scale(0.9);
+}
+.ones, .twos{
+	background-color: pink;
+	height: 225px;
+	width: 450px;
+	
+	float: left;
+	
+
+}
+
+.twos{
+
+	float: right;
+	margin-right: 310px;
+	
+	background-image: url(assets/car.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+}
+
+
+.ones{
+	margin-left: 310px;
+	background-image: url(assets/car2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: transparent;
+
+
+}
+
+
+.first-fold{
+	width: 100vw;
+	height: 80vh;
+	background-color: black;
+	position: absolute;
+
+}
+
+.building, .start, .high{
+	width: 100%;
+	height: 10px;
+		margin-top: 475vh;
+		/*background-color: pink;*/
+	position: absolute;
+
+}
+
+.start{
+	margin-top: 500px;
+	z-index: 1000;
+}
+
+
+.high{
+	margin-top: 185vh;
+	z-index: 1000;
+}
+
+.show{
+	margin-top: 250vh;
+	z-index: 1000;
+}
+
+.thug{
+	
+	width: 7.5vw;
+	height: 14vh;
+	background-image: url(assets/thug.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+	margin-top: 210vh;
+	margin-left: -50%;
+	
+	position:absolute;
+}
+
+.text {
+	 height: 200px;
+	 width: 400px;
+	 background-color: rgba(0,0,0,0.8);
+	 position: absolute;
+	 z-index: 1;
+	 position: fixed;
+	 margin-left: 38%;
+	 /*margin-top: 3%;*/
+	 color: white;
+	text-align: center;
+	font-size: 30px;
+	display: none;
+	transform: scale(0.9);
+	
+
+
+
+
+}
+
+.intro{
+	height: 230px;
+}
+
+.text h3{
+	margin-top: auto;
+	font-family: 'Open Sans', sans-serif;
+	padding: 40px 20px;
+
+
+
+}
+
+audio{
+	display: none;
+}
