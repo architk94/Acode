@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Julee|Lato|Roboto');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background-color: #2C3E50;
+}
+
+
+.horizontal{
+	padding: 8px;
+
+}
+
+
+.work:hover .horizontal{
+	padding: 25px;
+	
+}
+
+.work:hover .container2{
+	margin-left: 35vw;
+	
+}
+
+
+.contact{
+	width: 100%;
+	position: absolute;
+	
+	height:60px;
+	top: 30px;
+}
+
+.container3{
+	margin-left: 37.5vw;
+	
+}
+
+.contact:hover .horizontal{
+	padding: 25px;
+}
+
+.contact:hover {
+	
+	cursor: pointer;
+}
+
+.contact:hover .container3{
+	margin-left: 30vw;
+	
+}
+
+.back{
+	height: 40px;
+	width: 40px;
+	background-image: url(back.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: rotate(90deg);
+	margin-left: 40px;
+	margin-top: 25px;
+	position: absolute;
+
+}
+
+.cancel{
+	height: 60px;
+	width: 60px;
+	background-image: url(logo1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	right: 40px;
+	margin-top: 35px;
+	position: absolute;
+
+}
+
+hr{
+	width: 40%;
+	top: 52%;
+	left: 30%;
+	position: absolute;
+	transform: rotate(-55deg);
+	z-index: 1;
+}
+
+
+header{
+	position: relative;
+}
+
+
+.border{
+	position: absolute;
+	height: 350px;
+	width: 350px;
+	background-image: url(pp.png);
+	background-size:  cover;
+	background-position:  center;
+
+	
+	margin-top: 180px;
+	margin-left: 400px;
+	padding: 20px;
+}
+
+.im{
+	position: absolute;
+	height: 650px;
+	width: 650px;
+	border: 2px solid transparent;
+	
+}
+
+.border2{
+	position: absolute;
+	height: 650px;
+	width: 650px;
+	border: 2px solid transparent;
+
+	
+}
+
+.border:hover .im{
+	
+	animation: new 0.5s ease-in-out forwards;
+}
+
+@keyframes new{
+	0%
+	{
+		height: 0%; 
+		width: 0%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		 
+	}
+	50%
+	{
+		height: 0%; 
+		width: 100%;
+		border-top-color: white;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		 
+	}
+	100%
+	{
+		
+		height: 100%; 
+		width: 100%;
+		border-top-color: white;
+		border-right-color: white;
+		border-bottom-color: transparent;
+		border-left-color: transparent; 
+	}
+}
+
+.border:hover .border2{
+	animation: news 0.4s ease-in-out forwards;
+	animation-delay: 0.2s;
+}
+
+
+@keyframes news{
+	0%
+	{
+		height: 0%; 
+		width: 0%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: transparent;
+		 
+	}
+	50%
+	{
+		height: 100%; 
+		width: 0%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: transparent;
+		border-left-color: white;
+		 
+	}
+	100%
+	{
+		
+		height: 100%; 
+		width: 100%;
+		border-top-color: transparent;
+		border-right-color: transparent;
+		border-bottom-color: white;
+		border-left-color: white; 
+	}
+}
+
+
+.container{
+	margin-left: 60px;
+}
+
+
+.left{
+	float: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	color: white;
+	margin-top: 200px;
+	margin-left: 100px;
+	text-transform: uppercase;
+	word-spacing: 10px;
+	width: 300px;
+	letter-spacing: 5px;
+}
+
+.button{
+	font-size: 20px;
+	margin: 70px;
+	margin-left: 30px;
+	text-align: center;
+	padding: 20px 30px;
+	width: 150px;
+	border: 2px solid white;
+	color: white;
+	transition: all 0.3s ease-in-out;
+	letter-spacing: 2px;
+	word-spacing: 5px;
+}
+
+.button:hover{
+	background-color: #1BA39C;
+	cursor: pointer;
+
+}
+
+.right{
+	float: right;
+	font-family: 'Lato', sans-serif;
+	font-size: 32px;
+	color: white;
+	margin-top: 200px;
+	margin-right:40px;
+	
+	text-transform: uppercase;
+	word-spacing: 10px;
+	width: 300px;
+	letter-spacing: 5px;
+
+
+}
+
+.info{
+	position: absolute;
+	bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	line-height: 20px;
+	word-spacing: 10px;
+	letter-spacing: 3px;
+
+
+}

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Julee|Lato|Roboto');
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.nav{
+	position: relative;
+	width: 100%;
+	z-index: 100;
+}
+
+
+h2{
+	font-weight: 800;
+}
+
+.vertical{
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+
+	padding: 8px;
+	transform: rotate(90deg);
+}
+
+.aboutme{
+	
+	height: 100vh;
+	width: 60px;
+	position: absolute;
+	margin-left: 5px;
+}
+
+.aboutme:hover .vertical{
+	cursor: pointer;
+	padding: 20px;
+}
+
+.aboutme:hover .container{
+	padding-top: 12vh;
+	
+
+}
+
+.container{
+	padding-top: 25vh;
+}
+
+.experience{
+	float: right;
+	position: absolute;
+	right: 2px;
+	float: right;
+
+}
+
+.container1{
+	padding-top: 15vh;
+}
+
+
+.experience:hover .vertical{
+	cursor: pointer;
+	padding: 16px;
+}
+
+.experience:hover .container1{
+	padding-top: 8vh;
+	}
+
+.one{
+	transform: rotate(-90deg);
+}
+
+.horizontal{
+	padding: 8px;
+
+}
+
+.work{
+	
+	width: 100%;
+	height: 60px;
+
+}
+
+.container2{
+	margin-left: 44vw;
+	padding-top: 15px;
+}
+
+.work:hover .horizontal{
+	padding: 25px;
+	
+}
+
+.work:hover .container2{
+	margin-left: 39vw;
+	
+}
+
+.work:hover {
+	
+	cursor: pointer;
+}
+
+.contact{
+	width: 100%;
+	position: absolute;
+	
+	height:60px;
+	bottom: 15px;
+}
+
+.container3{
+	margin-left: 40vw;
+	
+}
+
+.contact:hover .horizontal{
+	padding: 25px;
+}
+
+.contact:hover {
+	
+	cursor: pointer;
+}
+
+.contact:hover .container3{
+	margin-left: 32vw;
+	
+}
+
+header{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(assets/cin1.gif);
+	background-size: cover;
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+}
+
+.tint{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	position: relative;
+	
+	top: 0px;
+	z-index: -1;
+	margin-top: -65px;
+
+}
+
+.logo{
+	height: 150px;
+	width: 150px;
+	background-image: url(assets/logon.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	margin-top: 250px;
+}
+
+

@@ -1,0 +1,160 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+h2{
+	font-weight: 800;
+}
+
+nav{
+	position: relative;
+}
+
+.vertical{
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+
+	padding: 8px;
+	transform: rotate(90deg);
+}
+
+.experience{
+	float: left;
+	position: absolute;
+	left: 8px;
+	width: 60px;
+	
+
+}
+
+.container1{
+	padding-top: 15vh;
+	height: 110vh;
+	
+}
+
+
+.experience:hover .vertical{
+	cursor: pointer;
+	padding: 16px;
+}
+
+.experience:hover .container1{
+	padding-top: 8vh;
+	}
+
+.one{
+	transform: rotate(-90deg);
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.back{
+	height: 35px;
+	width: 35px;
+	background-image: url(back.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	transform: rotate(0deg);
+	left: 20px;
+	margin-top: 25px;
+	position: absolute;
+
+}
+
+
+
+.cancel{
+	height: 60px;
+	width: 60px;
+	background-image: url(logo1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	left: 10px;
+	
+	position: absolute;
+	top: 635px;
+	
+
+}
+
+
+
+
+header{
+	width: 100vw;
+	height: 370vh;
+	background-image: url(exp.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+
+}
+
+
+
+.car{
+	position: absolute;
+	left: 670px;
+	top: 40px;
+
+	height: 150px;
+	width: 300px;
+	background-image: url(car.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 100;
+	
+}
+
+
+.stone{
+	height: 150px;
+	width: 220px;
+	background-color: #2574A9;
+	color: white;
+	text-align: center;
+	font-family: 'Avenir', sans-serif;
+	padding: 20px 30px;
+	font-size: 20px;
+	position: absolute;
+	
+	margin-left: 1110px;
+	top: 60px;
+
+}
+
+.stone h1{
+	margin-bottom: -15px;
+}
+
+.n{
+	font-weight: 550;
+	font-size: 21px
+}
+
+
+.stone:hover{
+	animation: animate 0.3s ease-in-out;
+	cursor: pointer;
+	height: 300px;
+	
+	animation-delay: 0.3s;
+	animation-timing-function: ease-in-out;
+}
+
+
