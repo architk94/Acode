@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square|Space+Mono');
+
+
+*{
+  padding: 0;
+  margin: 
+}
+
+.wrapper{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.layer {
+  
+  box-sizing: content-box;
+  padding: 50px 200px;
+  margin: -50px -250px;
+  left: 0px;
+  top: 0px;
+
+
+}
+
+.img1 {
+  background: url("assets/star1.png");
+  z-index: 1;
+  width: 100vw;
+  height: 300vh;
+  position: absolute;
+  background-size: contain;
+  
+  
+  background-repeat: repeat;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+.text{
+  color: white;
+  font-size: 8em;
+  font-weight: 700;
+  font-family: arial;
+  margin-top: 50vh;
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+  
+
+}
+
+
+
+
+.img2 {
+  background: url("assets/star2.png");
+  z-index: 3;
+  width: 200vw;
+  height: 200vh;
+  
+  position: absolute;
+  background-size: contain;
+
+  
+  
+
+  background-repeat: repeat;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.img3 {
+  background: url("assets/const.png");
+  z-index: 4;
+  width: 100vw;
+  height: 200vh;
+  
+  position: absolute;
+  background-size: contain;
+  
+  
+  
+
+  background-repeat: repeat;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+.overlay {
+  position: absolute;
+  
+ 
+  z-index: 5;
+  width: 100vw;
+  height: 300vh;
+  background: rgba(0,0,0,0.9);
+  overflow: hidden;
+}
+
+.logo{
+height: 120px;
+width: 100vw;
+left: 43%;
+
+margin-top: 25vh;
+display: inline-block;
+vertical-align: middle;
+
+text-align: center;
+background-image: url(assets/logon.png);
+background-size: contain;
+background-repeat: no-repeat;
+z-index: 5;
+position: absolute;
+
+}
+
+
+.days{
+  left: 43%;
+   margin-top: 99vh;
+   position: absolute;
+   width: 50%;
+}
+
+ a{
+  color: white;
+  font-size: 4em;
+  font-weight: 500;
+  z-index: 100;
+  position: absolute;
+ 
+  
+  text-align: center;
+ font-family: 'Space Mono', monospace;
+ text-decoration: none;
+
+
+
+
+}
+
+.line{
+  padding-top: 30vh;
+}
+
+ a:hover {
+  cursor: pointer;
+  color: grey;
+}
+
+
+h4{
+  font-size:22px;
+  margin-left: -4vw;
+  margin-top: -0.5vh;
+  display: none;
+}
+
+
+ a:hover h4 {
+  cursor: pointer;
+  color: white;
+  display: block;
+
+
+
+ 
+ 
+  animation-name: me;
+  animation-duration: 0.2s;
+    
+  animation-timing-function: ease-in-out;
+  animation-direction: forwards;
+}
+
+
+@keyframes me{
+  0%
+  {
+    
+   transform: translateY(-6vh);
+   opacity: 0%;
+     
+  }
+
+  
+
+
+  100%
+  {
+    
+    transform: translateY(0);
+    opacity: 100%;
+     
+  }
+
+}
+
+
+
+
+/*.circle{
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  position: absolute;
+  z-index: 5;
+  border-radius: 150%;
+     margin-top: 10vh;
+   position: absolute;
+   
+}*/
+
+

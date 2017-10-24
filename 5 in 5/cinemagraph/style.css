@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square|Space+Mono');
+
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: 'Space Mono', monospace;
+}
+
+
+body{
+	background: rgba(0,0,0,0.9);
+}
+
+
+
+.wrapper{
+	height: 70vh;
+	width: 70vw;
+	margin-left: 11vw;
+	margin-top: 17vh;
+}
+
+
+.layer{
+	padding: 50px;
+	margin-top: 50px;
+
+
+}
+
+.img1 {
+  background: url("1.gif");
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.img2 {
+  background: url("dance.gif");
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img3 {
+  background: url("time.gif");
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.img4 {
+  background: url("traffic.gif");
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+ 
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+.back, .next{
+	color: white;
+	font-size: 35px;
+	margin-top: -15vh;
+	padding: 40px;
+
+}
+
+.back{
+	float: left;
+}
+
+.next{
+	float: right;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
